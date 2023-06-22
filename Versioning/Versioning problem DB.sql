@@ -21,21 +21,21 @@ insert into Employees_Q3(Name, City, Email, Schedule_Date) values('Ahmed','Giza'
 insert into Employees_Q3(Name, City, Email, Schedule_Date) values('Alaa','Giza','alaa@mail.com','2023-05-18');
 insert into Employees_Q3(Name, City, Email, Schedule_Date) values('Samy','Cairo','samy@mail.com','2023-05-18');
 
-select * from [dbo].[Employees_Q3]
-select * from [dbo].[Employees_versions] 
+select * from Employees_Q3
+select * from Employees_versions
 
 
 /*
-Example of the result set(excuting query 'select * from Employees_Q3'):
+Example of the result set(executing query 'select * from Employees_Q3'):
 
-ID	    Name	City	   Email	    Schedule_Date
+ID	 Name	City	   Email	Schedule_Date
 1001	Ahmed	Giza	ahmed@mail.com	2023-05-18
 1002	Alaa	Giza	alaa@mail.com	2023-05-18
 1003	Samy	Cairo	samy@mail.com	2023-05-18
 
-Example of the result set(excuting query 'select * from Employees_versions'):
+Example of the result set(executing query 'select * from Employees_versions'):
 
-Emp_key  ID     Name    City       Email         Insert_Date   Active_Flag    Version_No
+Emp_key      ID         Name    City       Email         Insert_Date      Active_Flag    Version_No
 1	    1001	Ahmed	Giza	ahmed@mail.com	 2023-05-18	      0	             1
 2	    1002	Alaa	Giza	alaa@mail.com	 2023-05-18	      0	             1
 3	    1003	Samy	Cairo	samy@mail.com	 2023-05-18	      0	             1
