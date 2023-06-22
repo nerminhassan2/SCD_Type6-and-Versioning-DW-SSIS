@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="NERMIN_MSSQLSERVER19.AssignmentDW"
+  DTS:DTSID="{CF8FAF37-BA9A-41BE-BA76-A70B494E566B}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=NERMIN\MSSQLSERVER19;Initial Catalog=AssignmentDW;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Assignment-{CF8FAF37-BA9A-41BE-BA76-A70B494E566B}NERMIN\MSSQLSERVER19.AssignmentDW;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
